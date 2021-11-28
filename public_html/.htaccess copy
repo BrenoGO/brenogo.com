@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ http://brenogo.com/$1 [R,L]
+
+RewriteRule ^(timer[^\.]+)$ timer/index.php
+RewriteRule ^(moco[^\.]+)$ moco/index.html

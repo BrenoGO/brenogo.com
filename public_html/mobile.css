@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+  #container{
+    justify-content: center;
+  }
+  #nameTitle{
+    font-size: 21px;
+  }
+  .project{
+    margin: 1.5%;
+    width: 95%;
+    transition: none;
+  }
+}

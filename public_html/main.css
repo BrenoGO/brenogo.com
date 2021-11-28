@@ -1,0 +1,85 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F8F8F8;
+}
+p, a{
+  margin: 5px;
+}
+ul{
+  margin: 3px;
+}
+header{
+  background-color: #FDFDFD;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px;
+  align-self: center;
+}
+span{
+  margin: 2px;
+}
+#info a{
+  color: white;
+  font-weight: 600;
+}
+#info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #78b62e;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+#portfolio{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.icon{
+  height: 40px;
+}
+.project{
+  background-color: #FDFDFD;
+  display: flex;
+  margin: 1.5%;
+  flex-direction: column;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all .3s ease-in;
+}
+.project:hover{
+  transform: scale(1.05);
+}
+.projectContent{
+  padding: 5px;
+}
+.projectImg{
+  width: 100%;
+}
+.title{
+  font-size: 2em;
+  font-weight: 900;
+}
+.description{
+  font-size: 1.15em;
+}
+.technologies{
+  padding: 3px;
+  margin-top:15px;
+}
+.devTitle{
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 15px;
+}
+.tech{
+  margin: 20px;
+}
+.techTitle{
+  font-size: 1.25em;
+  font-weight: 550px;
+}
